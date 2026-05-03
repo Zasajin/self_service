@@ -1,0 +1,42 @@
+# OS FILES
+.DS_Store
+**/.DS_Store
+Thumbs.db
+__MACOSX/
+desktop.ini
+*~
+.nfs*
+
+# TEMP FILES AND LOGS
+*.log
+*.tmp
+
+# JAVA FILES
+*.class
+*.jar
+*.war
+*.ear
+
+# BUILD FILES
+/app/build/
+/app/bin/
+/target/
+/out/
+
+# GRADLE FILES
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# VSCODE FILES
+.vscode/
+
+# OTHER FILES
+.env
+*.key
+*.crt
+*.pem
+*~
+*.swp
+*.swo
